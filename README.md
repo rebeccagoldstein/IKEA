@@ -8,16 +8,16 @@
 ## Initialize the database using the ikeaSeeds.sql file in MySQL Workbench.
 ## Ensure that the `port`, `user` and `password` in the ikeaCustomer.js file are correct.
 ## Open the ikeaCatalog folder in the terminal and type `node ikeaCustomer.js` in the command line and hit enter.
-[Screenshot 1](/images/screenshot01.jpg)
+![Screenshot 1](/images/screenshot01.jpg)
 
 ## The logo and inventory list should appear as well as a prompt for what product you would like to buy.
-[Screenshot 2](/images/screenshot02.jpg)
+![Screenshot 2](/images/screenshot02.jpg)
 
 ## Type the corresponding ID in the command line and hit enter.
-[Screenshot 3](/images/screenshot03.jpg)
+![Screenshot 3](/images/screenshot03.jpg)
 
 ## Type the desired quantity in the command line and hit enter.
-[Screenshot 4](/images/screenshot04.jpg)
+![Screenshot 4](/images/screenshot04.jpg)
 ## The app will update the quantity in the MySQL database and calculate your total.
 
 
