@@ -8,12 +8,14 @@ const connection = mysql.createConnection({
     port: 3306,
     user: "root",
     password: "paprika",
-    database: "bamazon"
+    database: "ikeacatalog"
 });
 
 function load() {
-    console.log("Retrieving inventory data...")
-}
+    console.log(" ");
+    console.log("Retrieving inventory data...");
+    console.log(" ");
+};
 
 // connect to server and database
 connection.connect(function (err) {
@@ -97,22 +99,11 @@ function selectProduct(products) {
                     }
                 ],
                 function(err, res) {
-                    const cost = product_item[0].price*answers.product_selection;
+                    const cost = product_item[0].price*answers.quantity_selection;
                     console.log("Requisiton submitted, proceeding with transaction...");
                     console.log(`Your total is: ${cost} CREDITS`);
                     connection.end();
                 });
             }
         });
-}
-
-// function to check quantity
-
-    // if insufficient quantity, alert user
-
-
-// function to complete purchase
-
-    // remove quantity from database
-
-        // alert user total purchase cost
+};

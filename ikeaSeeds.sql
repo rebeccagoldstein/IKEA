@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS bamazon;
+DROP DATABASE IF EXISTS ikeacatalog;
 
-CREATE DATABASE bamazon;
+CREATE DATABASE ikeacatalog;
 
-USE bamazon;
+USE ikeacatalog;
 
 CREATE TABLE products (
   item_id INT NOT NULL AUTO_INCREMENT,
@@ -26,6 +26,5 @@ VALUES ("QUASAR Workspace Illuminator", "habitat mod", 25.00, 6),
 ("Starship Keychain", "misc", 5.00, 14);
 /* VALUES ("Lightning Cable", "electronics", 10.00, 100), ("Laptop Charger", "electronics", 50.00, 25), ("French Coffee Press", "kitchen", 20.00, 30), ("Bluetooth Speaker", "electronics", 60.00, 25), ("Wine Rack", "household", 25.00, 50), ("Bluetooth Keyboard", "electronics", 20.00, 40), ("Salt and Pepper Shakers", "kitchen", 10.00, 50), ("Cast Iron Skillet", "kitchen", 30.00, 20), ("Banana Hook", "kitchen", 10.00, 30), ("Decorative Key Hook", "household", 5.00, 25);
 */
-
 
 SELECT * FROM products;
